@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>favColor</title>
+    <style>
+        html{
+            background-color: black;
+            
+        }
+        #text{
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id= "text">Is this in your color? <br> Yes? <br> really? <br> Wow, I'm good.</h1>
+    <script>
+    	var favColor = "";
+    	favColor = prompt("What is your fav color? (red, green or blue)");
+   	 
+    	switch (favColor)
+        	{
+        	case "green":
+            	document.getElementById("text").style.color = "#33cc33";
+            	document.getElementById("text").style.textShadow = "0px 0px 8px #33cc33";
+            	break;
+           	 
+        	case "blue":
+            	document.getElementById("text").style.color = "#0099ff";
+            	document.getElementById("text").style.textShadow = "0px 0px 8px #0099ff";
+            	break;
+           	 
+        	case "red":
+            	document.getElementById("text").style.color = "#ff5050";
+            	document.getElementById("text").style.textShadow = "0px 0px 8px #ff5050";
+            	break;
+           	 
+        	default:
+            	alert("you get nothing for not following simple instructions");
+            	document.getElementById("text").style.color = "#000000";
+            	break;
+  
+        	}
+
+
+            //    	var counter = 0;
+            //    	while(counter < 70){
+            //        	alert("Noah still suks (" + counter + "), press ok to refresh");
+            //        	counter++;
+            //    	}
+            //    	alert("ok, noahs cool agian")
+            //    	confirm("Do you even lift bro?");
+
+                    //chat bot
+                    //    	var response = "";
+            //    	var exit = false;
+            //    	while (exit == false){
+            //        	response = prompt("type stuffs");
+            //        	switch(response)
+            //            	{
+            //            	case "exit":
+            //                	exit = true;
+            //            	case "you suck":
+            //                	alert("no lol you do");
+            //            	case "sup":
+            //                	alert("hey, watsupppp");
+            //            	case "why":
+            //                	alert("back off");
+            //            	case "everything":
+            //                	alert("what the?");
+            //            	case "y":
+            //                	alert("cuz");
+            //            	case "y tho":
+            //                	alert(":( you don't like me?");
+            //                	alert("I QUIT!");
+            //                	exit = true;
+            //            	case "my names steve":
+            //                	alert("okayyyy");
+            //           	 
+            //           	 
+            //               	 
+            //            	}
+            //       	 
+            //    	}
+
+            //    	var cheese = confirm("you like things?");
+            //    	alert(cheese);
+
+    </script>
+</body>
+</html>
